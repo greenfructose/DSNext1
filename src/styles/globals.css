@@ -3,7 +3,7 @@
 }
 
 .btn-primary {
-  @apply text-white bg-black border-black btn hover:bg-gray-700 hover:border-gray-700 dark:bg-white dark:text-black dark:border-white dark:hover:bg-gray-200 dark:hover:border-gray-200;
+  @apply text-teal-900 bg-lime-500 border-lime-800 btn hover:bg-lime-700 hover:border-lime-500 dark:bg-lime-500 dark:text-black dark:border-lime-800 dark:hover:bg-lime-300 dark:hover:border-lime-400;
 }
 
 .btn-secondary {

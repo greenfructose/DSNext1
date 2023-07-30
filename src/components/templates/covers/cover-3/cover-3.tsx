@@ -1,6 +1,6 @@
 import Image from "next/image";
 import getConfig from "next/config";
-import { ButtonLink, Preheading } from "s@/components/elements";
+import { ButtonLink, Preheading } from "@/components/elements";
 
 export default function Cover3({ content }: any) {
   if (!content) return <></>;

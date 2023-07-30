@@ -1,15 +1,15 @@
 {
   "global": {
-    "name": "Corporate Tailwind",
+    "name": "Daniel & Sons Softwash",
     "logo": {
       "data": {
         "attributes": {
           "name": "builtjs",
           "path": "/images/theme",
           "ext": "svg",
-          "url": "/images/theme/builtjs.svg",
-          "width": 45,
-          "height": 45
+          "url": "/images/theme/logo-color.png",
+          "width": 60,
+          "height": 60
         }
       }
     }
