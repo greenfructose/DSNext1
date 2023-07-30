@@ -1,0 +1,26 @@
+{
+  "layout": {
+    "contentIndex": 1,
+    "sections": [
+      {
+        "slug": "header",
+        "template": {
+          "slug": "header-1"
+        },
+        "collections": {
+          "primary-menu-items": {}
+        }
+      },
+      {
+        "slug": "footer",
+        "template": {
+          "slug": "footer-1"
+        },
+        "collections": {
+          "primary-menu-items": {},
+          "social-links": {}
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "sections": {
+    "header": {
+      "slug": "header",
+      "category": "layout",
+      "settings": {
+        "collectionName": "components_layout_header",
+        "info": {
+          "displayName": "Header",
+          "icon": "heading"
+        },
+        "attributes": {
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        }
+      }
+    },
+    "footer": {
+      "slug": "footer",
+      "category": "layout",
+      "settings": {
+        "collectionName": "components_layout_footer",
+        "info": {
+          "displayName": "Footer",
+          "icon": "heading"
+        },
+        "attributes": {}
+      }
+    },
+    "home-seo": {
+      "slug": "home-seo",
+      "category": "seo",
+      "settings": {
+        "collectionName": "components_seo_home_seo",
+        "info": {
+          "displayName": "Home Page SEO",
+          "icon": "robot"
+        },
+        "attributes": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "text"
+          },
+          "shareImage": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "twitterCardType": {
+            "type": "string"
+          },
+          "twitterUsername": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "contact-seo": {
+      "slug": "contact-seo",
+      "category": "seo",
+      "settings": {
+        "collectionName": "components_seo_contact_seo",
+        "info": {
+          "displayName": "Contact Page SEO",
+          "icon": "robot"
+        },
+        "attributes": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "text"
+          },
+          "shareImage": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "twitterCardType": {
+            "type": "string"
+          },
+          "twitterUsername": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "about-seo": {
+      "slug": "about-seo",
+      "category": "seo",
+      "settings": {
+        "collectionName": "components_seo_about_seo",
+        "info": {
+          "displayName": "About Page SEO",
+          "icon": "robot"
+        },
+        "attributes": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "text"
+          },
+          "shareImage": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "twitterCardType": {
+            "type": "string"
+          },
+          "twitterUsername": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "services-seo": {
+      "slug": "services-seo",
+      "category": "seo",
+      "settings": {
+        "collectionName": "components_seo_services_seo",
+        "info": {
+          "displayName": "Services Page SEO",
+          "icon": "robot"
+        },
+        "attributes": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "text"
+          },
+          "shareImage": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "twitterCardType": {
+            "type": "string"
+          },
+          "twitterUsername": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "main-landing": {
+      "slug": "main-landing",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_main_landing",
+        "info": { "displayName": "Main landing", "icon": "heading" },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": { "type": "string" },
+          "blurb": { "type": "text" },
+          "image": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        }
+      }
+    },
+    "contact-landing": {
+      "slug": "contact-landing",
+      "category": "forms",
+      "settings": {
+        "collectionName": "components_sections_contact_landing",
+        "info": { "displayName": "Contact landing", "icon": "heading" },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": { "type": "string" },
+          "blurb": { "type": "text" },
+          "contextualLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.contextual-link"
+          },
+          "fields": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.field"
+          },
+          "button": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.button"
+          }
+        }
+      }
+    },
+    "features-list": {
+      "slug": "features-list",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_features_list",
+        "info": { "displayName": "Features", "icon": "heading" },
+        "attributes": {
+          "title": { "type": "string" }
+        }
+      }
+    },
+    "contact-teaser": {
+      "slug": "contact-teaser",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_contact_teaser",
+        "info": { "displayName": "Contact Teaser", "icon": "heading" },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": { "type": "string" },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        },
+        "variants": {
+          "backgroundColor": "darkest"
+        }
+      }
+    },
+    "about-teaser": {
+      "slug": "about-teaser",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_home_about_teaser",
+        "info": { "displayName": "About Teaser", "icon": "heading" },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": { "type": "string" },
+          "blurb1": { "type": "text" },
+          "blurb2": { "type": "text" },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        }
+      }
+    },
+    "team": {
+      "slug": "team",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_team",
+        "info": { "displayName": "Team", "icon": "heading" },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": { "type": "string" },
+          "blurb1": { "type": "text" },
+          "blurb2": { "type": "text" },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        }
+      }
+    },
+    "benefits-list": {
+      "slug": "benefits-list",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_benefits_list",
+        "info": { "displayName": "Benefits", "icon": "heading" },
+        "attributes": {}
+      }
+    },
+    "services-landing": {
+      "slug": "services-landing",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_services_landing",
+        "info": { "displayName": "Services Landing", "icon": "heading" },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": { "type": "string" },
+          "blurb": { "type": "text" },
+          "image": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          }
+        }
+      }
+    },
+    "services-block": {
+      "slug": "services-block",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_services_block",
+        "info": {
+          "displayName": "Services Block",
+          "icon": "robot"
+        },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": {
+            "type": "string"
+          },
+          "blurb1": {
+            "type": "text"
+          },
+          "blurb2": {
+            "type": "text"
+          },
+          "image": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          }
+        }
+      }
+    },
+    "about-landing": {
+      "slug": "about-landing",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_about_landing",
+        "info": {
+          "displayName": "About Landing",
+          "icon": "robot"
+        },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": { "type": "string" },
+          "blurb": {
+            "type": "text"
+          },
+          "image": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        }
+      }
+    },
+    "about-text": {
+      "slug": "about-text",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_about_text",
+        "info": {
+          "displayName": "About Text",
+          "icon": "robot"
+        },
+        "attributes": {
+          "title": { "type": "string" },
+          "blurb1": {
+            "type": "text"
+          },
+          "blurb2": {
+            "type": "text"
+          }
+        }
+      }
+    },
+    "author-article": {
+      "slug": "author-article",
+      "category": "sections",
+      "settings": {
+        "collectionName": "components_sections_author_article",
+        "info": {
+          "displayName": "Author Article",
+          "icon": "robot"
+        },
+        "attributes": {}
+      }
+    }
+  }
+}

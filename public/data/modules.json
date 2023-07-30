@@ -1,0 +1,94 @@
+{
+  "modules": [
+    {
+      "slug": "introduce",
+      "displayName": "Introduce",
+      "description": "Familiarizes users with your product or service",
+      "required": true,
+      "moduleParts": [
+        {
+          "slug": "home-base"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "displayName": "Contact",
+      "description": "Encourages and facilitates making contact",
+      "moduleParts": [
+        {
+          "slug": "contact-base"
+        },
+        {
+          "slug": "services-contact-teaser"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "displayName": "About",
+      "description": "Provides information related to the organisation",
+      "moduleParts": [
+        {
+          "slug": "about-base"
+        },
+        {
+          "slug": "home-about-teaser"
+        }
+      ],
+      "modules": [
+        {
+          "slug": "team"
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "displayName": "Team",
+      "description": "Provides information about the team members",
+      "moduleParts": [
+        {
+          "slug": "about-team"
+        }
+      ],
+      "parent": {
+        "slug": "about"
+      }
+    },
+    {
+      "slug": "blog",
+      "repoName": "builtjs/builtjs-plugin-blog",
+      "version": "1.0.0"
+    },
+    {
+      "slug": "services",
+      "displayName": "Services",
+      "description": "Provides information about main services",
+      "moduleParts": [
+        {
+          "slug": "services-base"
+        }
+      ]
+    },
+    {
+      "slug": "features",
+      "displayName": "Features",
+      "description": "Provides information about main features of offering",
+      "moduleParts": [
+        {
+          "slug": "home-features"
+        }
+      ]
+    },
+    {
+      "slug": "benefits",
+      "displayName": "Benefits",
+      "description": "Displays main benefits of using offering",
+      "moduleParts": [
+        {
+          "slug": "home-benefits"
+        }
+      ]
+    }
+  ]
+}

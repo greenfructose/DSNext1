@@ -1,0 +1,157 @@
+{
+  "moduleParts": [
+    {
+      "slug": "contact-base",
+      "description": "Contact page base sections",
+      "page": {
+        "slug": "contact"
+      },
+      "sections": [
+        {
+          "slug": "contact-seo",
+          "position": 0
+        },
+        {
+          "slug": "contact-landing",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "slug": "services-contact-teaser",
+      "description": "Teaser for Contact page on Services page",
+      "page": {
+        "slug": "services"
+      },
+      "sections": [
+        {
+          "slug": "contact-teaser",
+          "position": 4
+        }
+      ],
+      "requiredModule": {
+        "slug": "services"
+      }
+    },
+    {
+      "slug": "home-base",
+      "description": "Home page base sections",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "home-seo",
+          "position": 0
+        },
+        {
+          "slug": "main-landing",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "slug": "services-base",
+      "description": "Services page base sections",
+      "page": {
+        "slug": "services"
+      },
+      "sections": [
+        {
+          "slug": "services-seo",
+          "position": 0
+        },
+        {
+          "slug": "services-landing",
+          "position": 1
+        },
+        {
+          "slug": "services-block",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "slug": "home-features",
+      "description": "Features list on Home page",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "features-list",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "slug": "home-benefits",
+      "description": "Benefits list on Home page",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "benefits-list",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "slug": "about-base",
+      "description": "About page base sections",
+      "page": {
+        "slug": "about"
+      },
+      "sections": [
+        {
+          "slug": "about-seo",
+          "position": 0
+        },
+        {
+          "slug": "about-landing",
+          "position": 1
+        }
+      ]
+    },
+    {
+      "slug": "home-about-teaser",
+      "description": "About page teaser on Home page",
+      "page": {
+        "slug": "home"
+      },
+      "sections": [
+        {
+          "slug": "about-teaser",
+          "position": 6
+        }
+      ]
+    },
+    {
+      "slug": "about-team",
+      "description": "About page team section",
+      "page": {
+        "slug": "about"
+      },
+      "sections": [
+        {
+          "slug": "team",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "slug": "author-article",
+      "description": "Author detail page sections",
+      "page": {
+        "slug": "author-article"
+      },
+      "sections": [
+        {
+          "slug": "author-article",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "elements": [
+        {"slug":"button-link"},
+        {"slug":"button"},
+        {"slug":"contextual-link"},
+        {"slug":"field"},
+        {"slug":"mode-toggle-btn"},
+        {"slug":"preheading"},
+        {"slug":"social-link"}
+    ]
+}

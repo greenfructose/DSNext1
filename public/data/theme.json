@@ -1,0 +1,62 @@
+{
+  "theme": {
+    "version": "1.0.0",
+    "apiVersion": "1.2",
+    "displayName": "Corporate Tailwind",
+    "description": "Small business theme with basic Tailwind styling.",
+    "language": "typescript",
+    "imageUrl": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-corporate-tailwind/public/images/theme/theme.png",
+    "repoName": "builtjs/builtjs-theme-corporate-tailwind",
+    "gitProvider": "github",
+    "repoUrl": "https://github.com/builtjs/builtjs-theme-corporate-tailwind",
+    "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app",
+    "modules": [
+      {
+        "slug": "main"
+      },
+      {
+        "slug": "services"
+      },
+      {
+        "slug": "features"
+      },
+      {
+        "slug": "Benefits"
+      },
+      {
+        "slug": "about"
+      },
+      {
+        "slug": "contact"
+      }
+    ],
+    "deps": {
+      "frontend": {
+        "project": ["nextjs", "tailwind"],
+        "node": {
+          "dependencies": {
+            "@fisch0920/use-dark-mode": "^2.4.0"
+          },
+          "devDependencies": {
+            "autoprefixer": "^10.4.8",
+            "postcss": "^8.4.16",
+            "tailwindcss": "^3.1.8"
+          }
+        }
+      },
+      "backend": {
+        "project": ["strapi"],
+        "node": {
+          "dependencies": {
+            "@fisch0920/use-dark-mode": "^2.4.0"
+          },
+          "devDependencies": {
+            "autoprefixer": "^10.4.8",
+            "postcss": "^8.4.16",
+            "tailwindcss": "^3.1.8"
+          }
+        }
+      }
+    }
+  }
+}

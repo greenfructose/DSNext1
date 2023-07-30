@@ -1,0 +1,127 @@
+{
+  "elements": [
+    {
+      "slug": "button-link",
+      "category": "elements",
+      "displayName": "Button Link",
+      "settings": {
+        "collectionName": "components_elements_button_link",
+        "info": {
+          "displayName": "Button Link",
+          "icon": "heading"
+        },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
+        "attributes": {
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "button",
+      "category": "elements",
+      "displayName": "Button",
+      "settings": {
+        "collectionName": "components_elements_button",
+        "info": {
+          "displayName": "Button",
+          "icon": "heading"
+        },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
+        "attributes": {
+          "label": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "contextual-link",
+      "category": "elements",
+      "displayName": "Contextual Link",
+      "settings": {
+        "collectionName": "components_elements_contextual_link",
+        "info": {
+          "displayName": "Contextual Link",
+          "icon": "heading"
+        },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
+        "attributes": {
+          "icon": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "text": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "field",
+      "category": "elements",
+      "displayName": "Field",
+      "settings": {
+        "collectionName": "components_elements_field",
+        "info": {
+          "displayName": "Field",
+          "icon": "heading"
+        },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
+        "attributes": {
+          "label": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "slug": "preheading",
+      "category": "elements",
+      "displayName": "Preheading",
+      "settings": {
+        "collectionName": "components_elements_preheading",
+        "info": {
+          "displayName": "Preheading",
+          "icon": "heading"
+        },
+        "options": { "increments": true, "timestamps": true, "draftAndPublish": true },
+        "attributes": {
+          "text": {
+            "type": "string"
+          },
+          "type": {
+            "type": "enumeration",
+            "enum": ["line", "dot", "plain"]
+          }
+        }
+      }
+    }
+  ]
+}

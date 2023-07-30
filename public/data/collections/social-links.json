@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "slug": "facebook",
+        "icon": {
+          "data": {
+            "attributes": {
+              "name": "facebook",
+              "path": "/images/theme/icons",
+              "ext": "svg",
+              "url": "/images/theme/icons/facebook.svg",
+              "width": 24,
+              "height": 24
+            }
+          }
+        },
+        "url": "https://facebook.com"
+      }
+    },
+    {
+      "attributes": {
+        "slug": "twitter",
+        "icon": {
+          "data": {
+            "attributes": {
+              "name": "twitter",
+              "path": "/images/theme/icons",
+              "ext": "svg",
+              "url": "/images/theme/icons/twitter.svg",
+              "width": 30,
+              "height": 24
+            }
+          }
+        },
+        "url": "https://twitter.com"
+      }
+    },
+    {
+      "attributes": {
+        "slug": "instagram",
+        "icon": {
+          "data": {
+            "attributes": {
+              "name": "instagram",
+              "path": "/images/theme/icons",
+              "ext": "svg",
+              "url": "/images/theme/icons/instagram.svg",
+              "width": 24,
+              "height": 24
+            }
+          }
+        },
+        "url": "https://instagram.com"
+      }
+    },
+    {
+      "attributes": {
+        "slug": "youtube",
+        "icon": {
+          "data": {
+            "attributes": {
+              "name": "youtube",
+              "path": "/images/theme/icons",
+              "ext": "svg",
+              "url": "/images/theme/icons/facebook.svg",
+              "width": 32,
+              "height": 24
+            }
+          }
+        },
+        "url": "https://youtube.com"
+      }
+    }
+  ]
+}

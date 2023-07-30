@@ -1,0 +1,260 @@
+{
+  "contentTypes": [
+    {
+      "singularDisplayName": "Author",
+      "pluralDisplayName": "Authors",
+      "slug": "author",
+      "plugins": ["richjava-blog"],
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "authors",
+        "info": {
+          "singularName": "author",
+          "pluralName": "authors",
+          "displayName": "Authors",
+          "description": "Writer of posts"
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true
+        },
+        "attributes": {
+          "fullName": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "fullName",
+            "required": true
+          },
+          "excerpt": {
+            "type": "text",
+            "required": false
+          },
+          "bio": {
+            "type": "richtext"
+          },
+          "position": {
+            "type": "string",
+            "required": false
+          },
+          "profileImage": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Primary Menu Item",
+      "pluralDisplayName": "Primary Menu Items",
+      "slug": "primary-menu-item",
+      "plugins": ["richjava-blog"],
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "primary_menu_items",
+        "info": {
+          "singularName": "primary-menu-item",
+          "pluralName": "primary-menu-items",
+          "displayName": "Primary Menu Items",
+          "description": "Menu item for the primary menu"
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "label": {
+            "type": "string",
+            "required": true
+          },
+          "url": {
+            "type": "string",
+            "unique": true,
+            "required": true
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Benefit",
+      "pluralDisplayName": "Benefits",
+      "slug": "benefit",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "benefits",
+        "info": {
+          "singularName": "benefit",
+          "pluralName": "benefits",
+          "displayName": "Benefits",
+          "description": ""
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "title",
+            "required": true
+          },
+          "blurb": {
+            "type": "text"
+          },
+          "image": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Feature",
+      "pluralDisplayName": "Features",
+      "slug": "feature",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "features",
+        "info": {
+          "singularName": "feature",
+          "pluralName": "features",
+          "displayName": "Features",
+          "description": ""
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "preheading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "elements.preheading"
+          },
+          "title": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "title",
+            "required": true
+          },
+          "blurb": {
+            "type": "text"
+          },
+          "image": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          },
+          "buttonLinks": {
+            "type": "component",
+            "repeatable": true,
+            "component": "elements.button-link"
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Service",
+      "pluralDisplayName": "Services",
+      "slug": "service",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "services",
+        "info": {
+          "singularName": "service",
+          "pluralName": "services",
+          "displayName": "Services",
+          "description": ""
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "title": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "uid",
+            "targetField": "title",
+            "required": true
+          },
+          "description": {
+            "type": "text"
+          },
+          "image": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": false
+          }
+        }
+      }
+    },
+    {
+      "singularDisplayName": "Social Link",
+      "pluralDisplayName": "Social Links",
+      "slug": "social-link",
+      "modelSettings": {
+        "kind": "collectionType",
+        "collectionName": "social_links",
+        "info": {
+          "singularName": "social-link",
+          "pluralName": "social-links",
+          "displayName": "Social Links",
+          "description": ""
+        },
+        "options": {
+          "increments": true,
+          "timestamps": true,
+          "draftAndPublish": true
+        },
+        "attributes": {
+          "icon": {
+            "allowedTypes": [
+              "images"
+            ],
+            "type": "media",
+            "multiple": false
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}

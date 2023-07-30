@@ -1,0 +1,552 @@
+{
+  "sections": [
+    {
+      "slug": "header",
+      "category": "layout",
+      "type": "layout",
+      "displayName": "Header",
+      "description": "The header contains the company logo, main site navigation and often a call-to-action button.",
+      "templates": ["header-1", "header-2"],
+      "defaultTemplate": {
+        "slug": "header-1"
+      },
+      "position": "start",
+      "attributes": {
+        "buttonLinks": [
+          {
+            "url": "/contact",
+            "label": "Button",
+            "type": "secondary"
+          }
+        ]
+      },
+      "collections": {
+        "primary-menu-items": {}
+      }
+    },
+    {
+      "slug": "footer",
+      "category": "layout",
+      "type": "layout",
+      "displayName": "Footer",
+      "description": "The footer contains secondary site navigation.",
+      "templates": ["footer-1", "footer-2"],
+      "defaultTemplate": {
+        "slug": "footer-1"
+      },
+      "position": "end",
+      "collections": {
+        "primary-menu-items": {},
+        "social-links": {}
+      }
+    },
+    {
+      "slug": "home-seo",
+      "displayName": "Home SEO",
+      "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
+      "category": "head",
+      "type": "head",
+      "attributes": {
+        "title": "Home | Corporate Tailwind Built.JS Theme",
+        "description": "Home page for a site built with the Corporate Tailwind Built.JS Theme.",
+        "shareImage": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "main-landing",
+      "displayName": "Main Landing",
+      "description": "The home page landing area, containing the main call-to-action.",
+      "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
+      "defaultTemplate": {
+        "slug": "cover-1"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "plain"
+        },
+        "title": "Lorem ipsum dolor sit amet dev",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image-square",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image-square.png",
+              "width": 768,
+              "height": 768
+            }
+          }
+        },
+        "buttonLinks": [
+          {
+            "url": "/services",
+            "label": "Button",
+            "type": "primary"
+          },
+          {
+            "url": "/contact",
+            "label": "Button",
+            "type": "secondary"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "features-list",
+      "displayName": "Features List",
+      "description": "A list of unique features the company offers.",
+      "templates": ["cards-1", "cards-2", "cards-3", "cards-4", "cards-5"],
+      "defaultTemplate": {
+        "slug": "cards-1"
+      },
+      "collections": {
+        "features": {}
+      }
+    },
+    {
+      "slug": "contact-teaser",
+      "displayName": "Contact Teaser",
+      "description": "A contact call-to-action to encourage users to make contact.",
+      "templates": ["banner-1", "banner-2", "banner-3", "banner-4", "banner-5"],
+      "defaultTemplate": {
+        "slug": "banner-1"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "line"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "buttonLinks": [
+          {
+            "url": "/contact",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      },
+      "variants": {
+        "backgroundColor": "darkest"
+      }
+    },
+    {
+      "slug": "benefits-list",
+      "displayName": "Benefits List",
+      "description": "A list of benefits the company provides.",
+      "templates": ["list-1", "list-2", "list-3"],
+      "defaultTemplate": {
+        "slug": "list-1"
+      },
+      "collections": {
+        "benefits": {}
+      }
+    },
+    {
+      "slug": "about-teaser",
+      "displayName": "About Teaser",
+      "description": "A small teaser about the company.",
+      "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
+      "defaultTemplate": {
+        "slug": "block-1"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "team",
+      "displayName": "Team",
+      "description": "An informational section about the people in the company.",
+      "templates": ["profile-cards-1"],
+      "defaultTemplate": {
+        "slug": "profile-cards-1"
+      },
+      "attributes": {
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident."
+      },
+      "collections": {
+        "authors": {
+          "config":{
+            "limit": 3
+          },
+          "article": {
+            "slug": "author-article"
+          }
+        }
+      }
+    },
+    {
+      "slug": "services-seo",
+      "displayName": "Services SEO",
+      "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
+      "category": "head",
+      "type": "head",
+      "attributes": {
+        "title": "Services | Corporate Tailwind Built.JS Theme",
+        "description": "Services page for a site built with the Corporate Tailwind Built.JS Theme.",
+        "shareImage": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "services-landing",
+      "displayName": "Services Landing",
+      "description": "The services page landing area.",
+      "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
+      "defaultTemplate": {
+        "slug": "cover-3"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "plain"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "buttonLinks": [
+          {
+            "url": "/services",
+            "label": "Button",
+            "type": "primary"
+          },
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "secondary"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "services-block",
+      "displayName": "Services Block",
+      "description": "An informational section about the services.",
+      "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
+      "defaultTemplate": {
+        "slug": "block-3"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "buttonLinks": [
+          {
+            "url": "/services",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "about-seo",
+      "displayName": "About SEO",
+      "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
+      "category": "head",
+      "type": "head",
+      "attributes": {
+        "title": "About | Corporate Tailwind Built.JS Theme",
+        "description": "About page for a site built with the Corporate Tailwind Built.JS Theme.",
+        "shareImage": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "about-landing",
+      "displayName": "About Landing",
+      "description": "The about page landing area, conveying convey trust and relatability.",
+      "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
+      "defaultTemplate": {
+        "slug": "cover-2"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "line"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {
+          "data": {
+            "attributes": {
+              "name": "image-square",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image-square.png",
+              "width": 1000,
+              "height": 1000
+            }
+          }
+        },
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          },
+          {
+            "url": "/services",
+            "label": "Button",
+            "type": "secondary"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "about-text",
+      "displayName": "About Text",
+      "description": "An informational section about the company.",
+      "templates": ["block-1", "block-2", "block-3", "block-4", "block-5"],
+      "defaultTemplate": {
+        "slug": "block-2"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot",
+          "alignment": "center"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb1": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "blurb2": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.",
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "author-article",
+      "displayName": "Author Article",
+      "description": "The author detail page.",
+      "templates": ["profile-article-1"],
+      "defaultTemplate": {
+        "slug": "profile-article-1"
+      },
+      "item": {
+        "slug": "author"
+      }
+    },
+    {
+      "slug": "contact-seo",
+      "displayName": "Contact SEO",
+      "templates": ["seo"],
+      "defaultTemplate": {
+        "slug": "seo"
+      },
+      "category": "head",
+      "type": "head",
+      "attributes": {
+        "title": "Contact | Corporate Tailwind Built.JS Theme",
+        "description": "Contact page for a site built with the Corporate Tailwind Built.JS Theme.",
+        "shareImage": {
+          "data": {
+            "attributes": {
+              "name": "image",
+              "path": "/images/theme",
+              "ext": "png",
+              "url": "/images/theme/image.png",
+              "width": 1280,
+              "height": 768
+            }
+          }
+        },
+        "twitterCardType": "summary",
+        "twitterUsername": ""
+      }
+    },
+    {
+      "slug": "contact-landing",
+      "displayName": "Contact Landing",
+      "description": "The contact page landing area, providing relevant contact details.",
+      "templates": ["form-1", "form-2"],
+      "defaultTemplate": {
+        "slug": "form-1"
+      },
+      "attributes": {
+        "preheading": {
+          "text": "Preheading",
+          "type": "plain"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button": {
+          "label": "Send",
+          "type": "primary"
+        },
+        "contextualLinks": [
+          {
+            "icon": {
+              "data": {
+                "attributes": {
+                  "name": "phone",
+                  "path": "/images/theme/icons",
+                  "ext": "svg",
+                  "url": "/images/theme/icons/phone.svg",
+                  "width": 24,
+                  "height": 26
+                }
+              }
+            },
+            "text": "Monday - Friday 9am - 5pm",
+            "label": "0800 123 4567",
+            "url": "tel:08001234567"
+          },
+          {
+            "icon": {
+              "data": {
+                "attributes": {
+                  "name": "mail",
+                  "path": "/images/theme/icons",
+                  "ext": "svg",
+                  "url": "/images/theme/icons/mail.svg",
+                  "width": 24,
+                  "height": 26
+                }
+              }
+            },
+            "text": "General Enquiries",
+            "label": "info@companyname.co.nz",
+            "url": "mailto:info@companyname.co.nz"
+          },
+          {
+            "icon": {
+              "data": {
+                "attributes": {
+                  "name": "marker",
+                  "path": "/images/theme/icons",
+                  "ext": "svg",
+                  "url": "/images/theme/icons/marker.svg",
+                  "width": 28,
+                  "height": 34
+                }
+              }
+            },
+            "text": "123 Example Street, Suburb, Christchurch, 8011 New Zealand",
+            "label": "Get Directions",
+            "url": "https://www.google.com/maps/place/123+Example+Street,+Suburb,+Christchurch,+8011+New+Zealand"
+          }
+        ],
+        "fields": [
+          {
+            "label": "Full name",
+            "name": "fullName",
+            "type": "text"
+          },
+          {
+            "label": "Telephone",
+            "name": "tel",
+            "type": "text"
+          },
+          {
+            "label": "Email",
+            "name": "email",
+            "type": "text"
+          },
+          {
+            "label": "Message",
+            "name": "message",
+            "type": "longtext"
+          }
+        ]
+      },
+      "collections": {
+        "social-links": {}
+      }
+    }
+  ]
+}

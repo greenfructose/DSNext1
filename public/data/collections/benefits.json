@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "slug": "benefits-1",
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {"data": {
+          "attributes": {
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
+        }}},
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
+      
+    },
+    {
+      "attributes": {
+        "slug": "benefits-2",
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {"data": {
+          "attributes": {
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
+        }}},
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
+    },
+    {
+      "attributes": {
+        "slug": "benefits-3",
+        "preheading": {
+          "text": "Preheading",
+          "type": "dot"
+        },
+        "title": "Lorem ipsum dolor sit amet",
+        "blurb": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": {"data": {
+          "attributes": {
+          "name": "image",
+          "path": "/images/theme",
+          "ext": "png",
+          "url": "/images/theme/image.png",
+          "width": 1280,
+          "height": 768
+        }}},
+        "buttonLinks": [
+          {
+            "url": "/about",
+            "label": "Button",
+            "type": "primary"
+          }
+        ]
+      }
+    }
+  ]
+}
