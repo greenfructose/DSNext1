@@ -13,7 +13,7 @@ export default function Cover5({ content }: any) {
       <div className="relative flex items-center min-h-screen">
         <div className="absolute top-0 left-0 w-full h-full">
           <Image
-            className="rounded-none"
+            className="rounded-none opacity-50"
             src={`${publicRuntimeConfig.BACKEND_URL || ""}${
               attributes?.image?.data.attributes.url
             }`}
