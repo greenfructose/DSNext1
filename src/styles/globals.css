@@ -3,11 +3,11 @@
 }
 
 .btn-primary {
-  @apply text-teal-900 bg-lime-500 border-lime-800 btn hover:bg-lime-700 hover:border-lime-500 dark:bg-lime-500 dark:text-black dark:border-lime-800 dark:hover:bg-lime-300 dark:hover:border-lime-400;
+  @apply text-green bg-navy border-lightNavy btn hover:text-navy hover:bg-green hover:border-lightNavy dark:bg-navy dark:text-white dark:border-lightNavy dark:hover:bg-lightNavy dark:hover:border-green;
 }
 
 .btn-secondary {
-  @apply text-gray-400 border-gray-400 btn hover:bg-gray-700 hover:text-white hover:border-gray-700;
+  @apply text-green bg-navy border-lightNavy btn hover:text-navy hover:bg-green hover:border-lightNavy dark:bg-navy dark:text-white dark:border-lightNavy dark:hover:bg-lightNavy dark:hover:border-green;
 }
 
 .btn:first-of-type + .btn {
@@ -15,7 +15,7 @@
 }
 
 .preheading {
-  @apply relative block mb-4 text-sm font-light tracking-widest text-gray-400 uppercase dark:text-gray-400;
+  @apply relative block mb-4 text-sm font-light tracking-widest text-navy uppercase dark:text-gray-400;
 }
 
 .preheading.center {

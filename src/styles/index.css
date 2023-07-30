@@ -8,7 +8,7 @@
   h1,
   h2,
   h3 {
-    @apply mb-6 font-bold text-teal-600 dark:text-white;
+    @apply mb-6 font-bold text-navy dark:text-white;
   }
 
   h1 {
@@ -24,7 +24,7 @@
   }
 
   p {
-    @apply mb-4 leading-relaxed text-teal-600 dark:text-gray-300;
+    @apply mb-4 leading-relaxed text-navy dark:text-gray-300;
   }
 
   a:not([class]) {
@@ -40,7 +40,7 @@
   section,
   aside,
   footer {
-    @apply bg-gray-300;
+    @apply bg-gray-100;
     @apply dark:bg-gray-800;
   }
 

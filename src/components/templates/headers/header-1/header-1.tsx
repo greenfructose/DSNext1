@@ -27,7 +27,7 @@ export default function Header1({ content }: any) {
             <Link className="flex items-center pr-10 mr-auto" href="/">
                 <span className="relative w-10">
                   <Image
-                    className="text-gray-400 bg-white fill-current dark:bg-gray-800"
+                    className="text-gray-400 bg-transparent fill-current dark:bg-gray-200"
                     src={`${publicRuntimeConfig.BACKEND_URL || ""}${
                       global?.logo?.data.attributes.url
                     }`}
@@ -37,7 +37,7 @@ export default function Header1({ content }: any) {
                     alt="logo"
                   />
                 </span>
-                <span className="ml-3 text-xl font-bold text-black uppercase dark:text-white">
+                <span className="ml-3 text-xl font-bold text-navy uppercase dark:text-white">
                   {global.name}
                 </span>
             </Link>
@@ -58,7 +58,7 @@ export default function Header1({ content }: any) {
                           : ""
                       }
                     >
-                      <Link className="flex justify-center w-full p-3 text-gray-600 transition duration-200 ease-in-out rounded-md dark:text-gray-300 hover:text-gray-900 hover:bg-gray-100 dark:hover:text-gray-800 md:w-auto"
+                      <Link className="flex justify-center w-full p-3 text-navy transition duration-200 ease-in-out rounded-md dark:text-gray-300 hover:text-gray-900 hover:bg-gray-100 dark:hover:text-gray-800 md:w-auto"
                         href={menuItem.attributes.url}
                       >
                         {menuItem.attributes.label}

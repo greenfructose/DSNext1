@@ -74,7 +74,7 @@
       "description": "The home page landing area, containing the main call-to-action.",
       "templates": ["cover-1", "cover-2", "cover-3", "cover-4", "cover-5"],
       "defaultTemplate": {
-        "slug": "cover-1"
+        "slug": "cover-5"
       },
       "attributes": {
         "preheading": {
